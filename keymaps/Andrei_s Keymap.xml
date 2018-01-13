@@ -17,6 +17,9 @@
   </action>
   <action id="BaseOnThisFunction" />
   <action id="ChangesView.Diff" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl meta x" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="DartTypeHierarchy.BaseOnThisType" />
   <action id="Diff.ShowDiff" />
