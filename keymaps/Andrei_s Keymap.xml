@@ -33,6 +33,9 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
