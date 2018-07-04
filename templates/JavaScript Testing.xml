@@ -7,4 +7,16 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="bfe" value="beforeEach(async (done) {&#10;  $END$&#10;  &#10;  done()&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="afe" value="afterEach(async (done) {&#10;  $END$&#10;  &#10;  done()&#10;});" description="Inserts afterEach() block" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="afa" value="afterAll(async (done) {&#10;  $END$&#10;  &#10;  done()&#10;});" description="Inserts afterAll() block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
