@@ -5,7 +5,6 @@
       <mapping pattern=".tf" type="JQL" />
       <mapping pattern=".firebaserc" type="PLAIN_TEXT" />
       <mapping ext="rules" type="PLAIN_TEXT" />
-      <mapping ext="tf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
